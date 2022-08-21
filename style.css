@@ -95,6 +95,18 @@ a:hover:after {
   box-shadow: 5px 5px 5px 7px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(to left, #f1a9ff, #fcf8ff);
 }
+.card_alt {
+  width: 95%;
+  height: 180px auto;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 3%;
+  padding-top: 3%;
+  box-shadow: 5px 5px 5px 7px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to right, #f1a9ff, #fcf8ff);
+}
 .des_3X3 {
   width: 50%;
   padding-left: 2%;
