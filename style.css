@@ -130,29 +130,29 @@ a:hover:after {
   margin-right: 10%;
 }
 .image-2X2 {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/2X2.png");
+  background-image: url("image/2X2.png");
 }
 .image-3X3 {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/3X3.png");
+  background-image: url("image/3X3.png");
 }
 .image-4X4 {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/4X4.png");
+  background-image: url("image/4X4.png");
 }
 .image-5X5 {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/5X5.png");
+  background-image: url("image/5X5.png");
 }
 .image-6X6 {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/6X6.png");
+  background-image: url("image/6X6.png");
 }
 .image-7X7 {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/7X7.png");
+  background-image: url("image/7X7.png");
 }
 .image-pyraminix {
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/pyraminix.png");
+  background-image: url("image/pyraminix.png");
 }
 .image-skewb {
   width: 30%;
-  background-image: url("../Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image/skewb.png");
+  background-image: url("image/skewb.png");
 }
 .des {
   width: 50%;
