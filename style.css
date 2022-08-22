@@ -5,7 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #d2b7f8;
+}
 nav {
   height: 80px;
   width: 100%;
@@ -75,7 +77,7 @@ a:hover:after {
   width: 50%;
   height: 20%;
   padding-left: 10%;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: left;
   font-size: xx-large;
   color: #1f1926;
@@ -84,33 +86,145 @@ a:hover:after {
 }
 
 .card {
+  float: right;
   width: 95%;
-  height: 180px auto;
-  display: flex;
+  height: 200px auto;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 3%;
   padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 80px;
   box-shadow: 5px 5px 5px 7px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(to left, #f1a9ff, #fcf8ff);
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
 }
 .card_alt {
+  float: left;
   width: 95%;
-  height: 180px auto;
-  display: flex;
+  height: 200px auto;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 3%;
   padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 80px;
   box-shadow: 5px 5px 5px 7px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(to right, #f1a9ff, #fcf8ff);
+  transition: transform 0.5s;
 }
-.des_3X3 {
+.card_alt:hover {
+  transform: translateY(-10px);
+}
+
+.card-image {
+  height: 250px;
+  width: 260px;
+  background-size: cover;
+  float: right;
+  margin-right: 10%;
+}
+.image-2X2 {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/valk2-removebg-preview.png");
+}
+.image-3X3 {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/gan_11m_pro-removebg-preview.png");
+}
+.image-4X4 {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/rsz_1image-removebg-preview.png");
+}
+.image-5X5 {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/image__1_-removebg-preview.png");
+}
+.image-6X6 {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/6X6-removebg-preview.png");
+}
+.image-7X7 {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/7X7-removebg-preview.png");
+}
+.image-pyraminix {
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/pyraminix-removebg-preview.png");
+}
+.image-skewb {
+  width: 30%;
+  background-image: url("/Users/RUDDRAW/WEB DEVELOPMENT/Website for Rubki's Cube/skewb-removebg-preview.png");
+}
+.des {
   width: 50%;
+  padding-top: 4%;
   padding-left: 2%;
   text-align: left;
   color: #1f1926;
   font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.footer-content {
+  background: #1f1926;
+  height: 10%;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  color: #fcf8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fcf8ff;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.5s ease;
+}
+.socials a:hover i {
+  color: #f0a5e0;
+}
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #fcf8ff;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
 }
